@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Net</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Black Net</h1>
+<p class="subtitle">by Miss Network (Maya)</p>
+
+<div class="container">
+  <div id="challenge" class="challenge"></div>
+
+  <form onsubmit="return submitAnswer()">
+    <input id="answer" placeholder="Submit result / flag">
+    <button>EXECUTE</button>
+    <div id="error" class="error"></div>
+  </form>
+
+  <div id="lock" class="lock"></div>
+
+  <table>
+    <tr><th>Level</th><th>Status</th></tr>
+    <tbody id="levels"></tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
